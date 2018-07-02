@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import Login from "./../Login/Login";
 import {
   BrowserRouter as Router,
   Route,
@@ -10,7 +11,11 @@ import {
 
 class App extends Component {
   render() {
-    return <div className="App" />;
+    return (
+      <div className="App">
+        <Login />
+      </div>
+    );
   }
 }
 
