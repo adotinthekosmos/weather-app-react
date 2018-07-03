@@ -23,7 +23,7 @@
 
 .login-form {
   min-height: 75vh;
-  padding: 8vh 10vh;
+  padding: 8vh;
   background-image: linear-gradient(
     to top left,
     rgba(178, 36, 239, 0.95) 0%,
@@ -36,6 +36,7 @@
   overflow: hidden;
 }
 
+/*Gradient Button transition*/
 .login-btn {
   display: block;
   width: 160px;
@@ -49,12 +50,15 @@
   color: #a932f2 !important;
   background: #fff;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   z-index: 1;
   margin: 0 auto;
-  margin-top: 10vh;
+  margin-top: 12vh;
   font-size: 1.2em;
   z-index: 2;
+  border: none;
 }
+
 .login-btn:after {
   position: absolute;
   content: "";
@@ -136,6 +140,10 @@
   text-transform: uppercase;
   font-size: 0.9em;
   font-weight: 400;
+}
+
+.login-warning {
+  color: #fff !important;
 }
 
 .h-100 {

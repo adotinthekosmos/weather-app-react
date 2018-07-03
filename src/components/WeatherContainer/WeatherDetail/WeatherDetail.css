@@ -1,0 +1,99 @@
+.weather-detail-container {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10vh;
+}
+
+.main-icon {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  background: #fff;
+  position: relative;
+  background-color: #fee140;
+  background-image: linear-gradient(90deg, #fee140 0%, #fa709a 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+
+.weather-detail-content {
+  float: left;
+  margin-left: 50px;
+}
+
+.detail-container {
+  display: flex;
+  align-items: center;
+  height: 200px;
+}
+
+.main-icon img {
+  height: 120px;
+  width: 120px;
+}
+
+.date {
+  text-align: left;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+.location {
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 5em;
+  font-weight: 300;
+}
+
+.temperature {
+  text-align: left;
+  color: #fff;
+  height: 100px;
+}
+
+.temperature .current-temp {
+  font-size: 4em;
+  font-weight: 300;
+}
+
+.temperature .highest-temp {
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  background: #ff416c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff4b2b,
+    #ff416c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff4b2b,
+    #ff416c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-left: 10px;
+}
+.temperature .lowest-temp {
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  background: #fc00ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00dbde, #fc00ff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-left: 3px;
+}
+.weather-spec {
+  color: #fff;
+}
